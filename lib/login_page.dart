@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatelessWidget {
@@ -70,16 +69,16 @@ class LoginPage extends StatelessWidget {
                 Expanded(child: Divider()),
               ],
             ),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
-              Icon(FontAwesomeIcons.facebook,
-                  size: 30, color: Colors.blueAccent),
-              SizedBox(width: 20),
-              Icon(FontAwesomeIcons.instagram,
-                  size: 30, color: Colors.pinkAccent),
-              SizedBox(width: 20),
-              Icon(FontAwesomeIcons.linkedin, size: 30, color: Colors.blue),
-              SizedBox(width: 20),
-            ]),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset('assets/linkedin.png', width: 40, height: 40),
+                SizedBox(width: 16),
+                Image.asset('assets/facebook.png', width: 40, height: 40),
+                SizedBox(width: 16),
+                Image.asset('assets/google.png', width: 40, height: 40),
+              ],
+            ),
             SizedBox(
               height: 36,
             ),
