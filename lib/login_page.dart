@@ -69,14 +69,17 @@ class LoginPage extends StatelessWidget {
                 Expanded(child: Divider()),
               ],
             ),
+            SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset('assets/linkedin.png', width: 40, height: 40),
+                Image.asset('assets/images/linkedin.png',
+                    width: 40, height: 40),
                 SizedBox(width: 16),
-                Image.asset('assets/facebook.png', width: 40, height: 40),
+                Image.asset('assets/images/facebook.png',
+                    width: 40, height: 40),
                 SizedBox(width: 16),
-                Image.asset('assets/google.png', width: 40, height: 40),
+                Image.asset('assets/images/google.png', width: 40, height: 40),
               ],
             ),
             SizedBox(
